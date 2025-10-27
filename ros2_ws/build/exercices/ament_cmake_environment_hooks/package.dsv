@@ -1,0 +1,4 @@
+source;share/exercices/local_setup.bash
+source;share/exercices/local_setup.dsv
+source;share/exercices/local_setup.sh
+source;share/exercices/local_setup.zsh

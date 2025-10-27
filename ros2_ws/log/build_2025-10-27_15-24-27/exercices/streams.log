@@ -1,0 +1,179 @@
+[0.020s] Invoking command in '/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices -- -j8 -l8
+[0.056s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.198s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.198s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.204s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.541s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.727s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.977s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.001s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.029s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.029s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.030s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.048s] -- Configuring done
+[1.077s] -- Generating done
+[1.088s] -- Build files have been written to: /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices
+[1.115s] [35m[1mConsolidate compiler generated dependencies of target exercices__rosidl_generator_c[0m
+[1.127s] [  3%] Built target exercices__cpp
+[1.128s] [ 12%] Built target exercices__rosidl_generator_c
+[1.147s] [35m[1mConsolidate compiler generated dependencies of target exercices__rosidl_typesupport_fastrtps_cpp[0m
+[1.147s] [35m[1mConsolidate compiler generated dependencies of target exercices__rosidl_typesupport_introspection_cpp[0m
+[1.147s] [35m[1mConsolidate compiler generated dependencies of target exercices__rosidl_typesupport_cpp[0m
+[1.147s] [35m[1mConsolidate compiler generated dependencies of target exercices__rosidl_typesupport_introspection_c[0m
+[1.147s] [ 12%] Built target ament_cmake_python_copy_exercices
+[1.147s] [35m[1mConsolidate compiler generated dependencies of target exercices__rosidl_typesupport_c[0m
+[1.148s] [35m[1mConsolidate compiler generated dependencies of target exercices__rosidl_typesupport_fastrtps_c[0m
+[1.165s] [ 38%] Built target exercices__rosidl_typesupport_cpp
+[1.165s] [ 38%] Built target exercices__rosidl_typesupport_c
+[1.165s] [ 41%] Built target exercices__rosidl_typesupport_fastrtps_cpp
+[1.165s] [ 61%] Built target exercices__rosidl_typesupport_introspection_c
+[1.165s] [ 61%] Built target exercices__rosidl_typesupport_introspection_cpp
+[1.169s] [ 70%] Built target exercices__rosidl_typesupport_fastrtps_c
+[1.191s] [ 70%] Built target exercices
+[1.216s] [ 74%] Built target exercices__py
+[1.228s] [35m[1mConsolidate compiler generated dependencies of target exercices__rosidl_generator_py[0m
+[1.243s] [ 80%] Built target exercices__rosidl_generator_py
+[1.255s] [35m[1mConsolidate compiler generated dependencies of target exercices__rosidl_typesupport_introspection_c__pyext[0m
+[1.255s] [35m[1mConsolidate compiler generated dependencies of target exercices__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.259s] [35m[1mConsolidate compiler generated dependencies of target exercices__rosidl_typesupport_c__pyext[0m
+[1.272s] [ 87%] Built target exercices__rosidl_typesupport_fastrtps_c__pyext
+[1.274s] [ 93%] Built target exercices__rosidl_typesupport_introspection_c__pyext
+[1.275s] [100%] Built target exercices__rosidl_typesupport_c__pyext
+[1.438s] running egg_info
+[1.439s] writing exercices.egg-info/PKG-INFO
+[1.439s] writing dependency_links to exercices.egg-info/dependency_links.txt
+[1.439s] writing top-level names to exercices.egg-info/top_level.txt
+[1.441s] reading manifest file 'exercices.egg-info/SOURCES.txt'
+[1.442s] writing manifest file 'exercices.egg-info/SOURCES.txt'
+[1.466s] [100%] Built target ament_cmake_python_build_exercices_egg
+[1.478s] Invoked command in '/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices -- -j8 -l8
+[1.489s] Invoking command in '/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices
+[1.498s] -- Install configuration: ""
+[1.498s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/ament_index/resource_index/rosidl_interfaces/exercices
+[1.498s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices
+[1.498s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg
+[1.498s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/computer_info.h
+[1.499s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail
+[1.499s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail/computer_info__type_support.h
+[1.499s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail/computer_info__struct.h
+[1.499s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail/computer_info__functions.h
+[1.499s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail/computer_info__functions.c
+[1.499s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/rosidl_generator_c__visibility_control.h
+[1.500s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/environment/library_path.sh
+[1.500s] -- Installing: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/environment/library_path.dsv
+[1.500s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/libexercices__rosidl_generator_c.so
+[1.500s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices
+[1.500s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg
+[1.500s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail
+[1.501s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail/computer_info__rosidl_typesupport_fastrtps_c.h
+[1.501s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.501s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/libexercices__rosidl_typesupport_fastrtps_c.so
+[1.501s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices
+[1.501s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg
+[1.502s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail
+[1.502s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail/computer_info__type_support.c
+[1.502s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail/computer_info__rosidl_typesupport_introspection_c.h
+[1.502s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.502s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/libexercices__rosidl_typesupport_introspection_c.so
+[1.503s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/libexercices__rosidl_typesupport_c.so
+[1.503s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices
+[1.503s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg
+[1.503s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/computer_info.hpp
+[1.503s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail
+[1.504s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail/computer_info__traits.hpp
+[1.504s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail/computer_info__type_support.hpp
+[1.504s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail/computer_info__struct.hpp
+[1.504s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail/computer_info__builder.hpp
+[1.504s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.504s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices
+[1.504s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg
+[1.505s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail
+[1.505s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail/dds_fastrtps
+[1.505s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail/computer_info__rosidl_typesupport_fastrtps_cpp.hpp
+[1.505s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.505s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/libexercices__rosidl_typesupport_fastrtps_cpp.so
+[1.505s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices
+[1.505s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg
+[1.506s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail
+[1.506s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail/computer_info__type_support.cpp
+[1.506s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/include/exercices/exercices/msg/detail/computer_info__rosidl_typesupport_introspection_cpp.hpp
+[1.506s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/libexercices__rosidl_typesupport_introspection_cpp.so
+[1.506s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/libexercices__rosidl_typesupport_cpp.so
+[1.507s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/environment/pythonpath.sh
+[1.507s] -- Installing: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/environment/pythonpath.dsv
+[1.507s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices-0.0.0-py3.10.egg-info
+[1.507s] -- Installing: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.507s] -- Installing: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices-0.0.0-py3.10.egg-info/top_level.txt
+[1.508s] -- Installing: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices-0.0.0-py3.10.egg-info/PKG-INFO
+[1.508s] -- Installing: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.508s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices
+[1.508s] -- Installing: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/__init__.py
+[1.508s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/_exercices_s.ep.rosidl_typesupport_c.c
+[1.508s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/msg
+[1.508s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/msg/__init__.py
+[1.508s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/msg/_computer_info.py
+[1.508s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/msg/_computer_info_s.c
+[1.508s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/exercices_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.508s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/exercices_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.508s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/libexercices__rosidl_generator_py.so
+[1.509s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/_exercices_s.ep.rosidl_typesupport_introspection_c.c
+[1.509s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.509s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/exercices_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.547s] Listing '/home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices'...
+[1.547s] Compiling '/home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/__init__.py'...
+[1.547s] Listing '/home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/msg'...
+[1.551s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/exercices_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.552s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/exercices_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.552s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/local/lib/python3.10/dist-packages/exercices/exercices_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.553s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/libexercices__rosidl_generator_py.so
+[1.553s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/msg/ComputerInfo.idl
+[1.553s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/msg/ComputerInfo.msg
+[1.553s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/exercices/publisher_ex1.py
+[1.553s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/exercices/publisher_ex2.py
+[1.554s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/exercices/publisher_ex3.py
+[1.554s] -- Installing: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/exercices/publisher_ex4.py
+[1.554s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/exercices/subscriber_ex1.py
+[1.554s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/exercices/subscriber_ex2.py
+[1.554s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/exercices/subscriber_ex3.py
+[1.554s] -- Installing: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/ament_index/resource_index/package_run_dependencies/exercices
+[1.554s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/ament_index/resource_index/parent_prefix_path/exercices
+[1.555s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/environment/ament_prefix_path.sh
+[1.555s] -- Installing: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/environment/ament_prefix_path.dsv
+[1.555s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/environment/path.sh
+[1.555s] -- Installing: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/environment/path.dsv
+[1.555s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/local_setup.bash
+[1.555s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/local_setup.sh
+[1.555s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/local_setup.zsh
+[1.555s] -- Installing: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/local_setup.dsv
+[1.556s] -- Installing: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/package.dsv
+[1.556s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/ament_index/resource_index/packages/exercices
+[1.556s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/export_exercices__rosidl_generator_cExport.cmake
+[1.556s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/export_exercices__rosidl_generator_cExport-noconfig.cmake
+[1.556s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/export_exercices__rosidl_typesupport_fastrtps_cExport.cmake
+[1.557s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/export_exercices__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.557s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/exercices__rosidl_typesupport_introspection_cExport.cmake
+[1.557s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/exercices__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.557s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/exercices__rosidl_typesupport_cExport.cmake
+[1.557s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/exercices__rosidl_typesupport_cExport-noconfig.cmake
+[1.557s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/export_exercices__rosidl_generator_cppExport.cmake
+[1.557s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/export_exercices__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.558s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/export_exercices__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.558s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/exercices__rosidl_typesupport_introspection_cppExport.cmake
+[1.558s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/exercices__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.558s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/exercices__rosidl_typesupport_cppExport.cmake
+[1.558s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/exercices__rosidl_typesupport_cppExport-noconfig.cmake
+[1.558s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/export_exercices__rosidl_generator_pyExport.cmake
+[1.558s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/export_exercices__rosidl_generator_pyExport-noconfig.cmake
+[1.558s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/rosidl_cmake-extras.cmake
+[1.558s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.558s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/ament_cmake_export_libraries-extras.cmake
+[1.559s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/ament_cmake_export_targets-extras.cmake
+[1.559s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.559s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.559s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.559s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/exercicesConfig.cmake
+[1.559s] -- Up-to-date: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/cmake/exercicesConfig-version.cmake
+[1.559s] -- Installing: /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/package.xml
+[1.560s] Invoked command in '/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices

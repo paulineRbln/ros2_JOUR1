@@ -1,6 +1,11 @@
-source;share/exercices/hook/pythonpath.ps1
-source;share/exercices/hook/pythonpath.dsv
-source;share/exercices/hook/pythonpath.sh
-source;share/exercices/hook/ament_prefix_path.ps1
-source;share/exercices/hook/ament_prefix_path.dsv
-source;share/exercices/hook/ament_prefix_path.sh
+source;share/exercices/hook/cmake_prefix_path.ps1
+source;share/exercices/hook/cmake_prefix_path.dsv
+source;share/exercices/hook/cmake_prefix_path.sh
+source;share/exercices/hook/ld_library_path_lib.ps1
+source;share/exercices/hook/ld_library_path_lib.dsv
+source;share/exercices/hook/ld_library_path_lib.sh
+source;share/exercices/local_setup.bash
+source;share/exercices/local_setup.dsv
+source;share/exercices/local_setup.ps1
+source;share/exercices/local_setup.sh
+source;share/exercices/local_setup.zsh

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "exercices__py",
+		"source" : "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/exercices__py"
+	}
+}

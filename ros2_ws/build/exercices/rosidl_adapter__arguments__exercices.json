@@ -1,0 +1,6 @@
+{
+  "package_name": "exercices",
+  "non_idl_tuples": [
+    "/home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices:msg/ComputerInfo.msg"
+  ]
+}

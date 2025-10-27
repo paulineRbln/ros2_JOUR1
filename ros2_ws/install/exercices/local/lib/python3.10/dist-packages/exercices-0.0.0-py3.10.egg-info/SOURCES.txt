@@ -1,0 +1,8 @@
+setup.py
+exercices/__init__.py
+exercices.egg-info/PKG-INFO
+exercices.egg-info/SOURCES.txt
+exercices.egg-info/dependency_links.txt
+exercices.egg-info/top_level.txt
+exercices/msg/__init__.py
+exercices/msg/_computer_info.py
