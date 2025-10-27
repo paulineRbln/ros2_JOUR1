@@ -1,4 +1,0 @@
-[console_scripts]
-listener = exercices.subscriber_ex1:main
-talker = exercices.publisher_ex1:main
-
