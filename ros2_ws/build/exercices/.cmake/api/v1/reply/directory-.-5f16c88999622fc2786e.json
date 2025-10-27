@@ -375,7 +375,7 @@
 			{
 				"command" : 12,
 				"file" : 2,
-				"line" : 33,
+				"line" : 34,
 				"parent" : 0
 			},
 			{
@@ -987,7 +987,8 @@
 				"scripts/subscriber_ex2.py",
 				"scripts/subscriber_ex3.py",
 				"scripts/subscriber_ex4.py",
-				"scripts/subscriber_ex5.py"
+				"scripts/subscriber_ex5.py",
+				"scripts/node_ex6.py"
 			],
 			"type" : "file"
 		},

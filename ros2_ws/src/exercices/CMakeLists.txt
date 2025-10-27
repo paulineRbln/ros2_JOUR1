@@ -25,6 +25,7 @@ install(PROGRAMS
   scripts/subscriber_ex3.py
   scripts/subscriber_ex4.py
   scripts/subscriber_ex5.py
+  scripts/node_ex6.py
   DESTINATION lib/${PROJECT_NAME}
   )
 
