@@ -78,11 +78,18 @@ rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__rosidl_typesup
 rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em
 rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
 rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/exercices/msg/ComputerInfo.idl
+rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/exercices/srv/ControlClient.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_typesupport_fastrtps_c__arguments.json
 
 rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__type_support_c.cpp: rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp: rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp
 
 CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__type_support_c.cpp.o: CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__type_support_c.cpp
@@ -98,14 +105,30 @@ CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastr
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__type_support_c.cpp -o CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__type_support_c.cpp.s
 
+CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp.o: CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp
+CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp.o: CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp.o -MF CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp.o.d -o CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp.o -c /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp
+
+CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp > CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp.i
+
+CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp -o CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp.s
+
 # Object files for target exercices__rosidl_typesupport_fastrtps_c
 exercices__rosidl_typesupport_fastrtps_c_OBJECTS = \
-"CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__type_support_c.cpp.o"
+"CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__type_support_c.cpp.o" \
+"CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp.o"
 
 # External object files for target exercices__rosidl_typesupport_fastrtps_c
 exercices__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 
 libexercices__rosidl_typesupport_fastrtps_c.so: CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__type_support_c.cpp.o
+libexercices__rosidl_typesupport_fastrtps_c.so: CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp.o
 libexercices__rosidl_typesupport_fastrtps_c.so: CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/build.make
 libexercices__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 libexercices__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
@@ -115,7 +138,7 @@ libexercices__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librmw.so
 libexercices__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libexercices__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librcutils.so
 libexercices__rosidl_typesupport_fastrtps_c.so: CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libexercices__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libexercices__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +151,8 @@ CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/clean:
 
 CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/exercices/msg/detail/computer_info__type_support_c.cpp
+CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/exercices/srv/detail/control_client__type_support_c.cpp
 	cd /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices /home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/exercices__rosidl_typesupport_fastrtps_c.dir/depend
 

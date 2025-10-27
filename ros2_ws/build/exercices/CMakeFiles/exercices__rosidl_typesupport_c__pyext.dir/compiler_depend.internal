@@ -249,4 +249,7 @@ CMakeFiles/exercices__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/exerci
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
  /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_c/exercices/msg/detail/computer_info__functions.h
+ /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_c/exercices/srv/detail/control_client__type_support.h
+ /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_c/exercices/srv/detail/control_client__struct.h
+ /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_c/exercices/srv/detail/control_client__functions.h
 

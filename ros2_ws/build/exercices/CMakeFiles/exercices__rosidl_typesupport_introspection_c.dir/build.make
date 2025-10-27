@@ -78,11 +78,18 @@ rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__rosidl_ty
 rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
 rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__rosidl_typesupport_introspection_c.h: rosidl_adapter/exercices/msg/ComputerInfo.idl
+rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__rosidl_typesupport_introspection_c.h: rosidl_adapter/exercices/srv/ControlClient.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_typesupport_introspection_c__arguments.json
 
+rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__type_support.c: rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__type_support.c
+
+rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c: rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c
 
 CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__type_support.c.o: CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__type_support.c.o: rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__type_support.c
@@ -98,21 +105,37 @@ CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__type_support.c -o CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__type_support.c.s
 
+CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c.o: CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c.o: rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c
+CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c.o: CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c.o -MF CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c.o.d -o CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c.o -c /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c
+
+CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c > CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c.i
+
+CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c -o CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c.s
+
 # Object files for target exercices__rosidl_typesupport_introspection_c
 exercices__rosidl_typesupport_introspection_c_OBJECTS = \
-"CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__type_support.c.o"
+"CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__type_support.c.o" \
+"CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c.o"
 
 # External object files for target exercices__rosidl_typesupport_introspection_c
 exercices__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libexercices__rosidl_typesupport_introspection_c.so: CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__type_support.c.o
+libexercices__rosidl_typesupport_introspection_c.so: CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c.o
 libexercices__rosidl_typesupport_introspection_c.so: CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/build.make
 libexercices__rosidl_typesupport_introspection_c.so: libexercices__rosidl_generator_c.so
 libexercices__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 libexercices__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libexercices__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libexercices__rosidl_typesupport_introspection_c.so: CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libexercices__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libexercices__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,6 +148,8 @@ CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/clean:
 
 CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__rosidl_typesupport_introspection_c.h
 CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/exercices/msg/detail/computer_info__type_support.c
+CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__rosidl_typesupport_introspection_c.h
+CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/exercices/srv/detail/control_client__type_support.c
 	cd /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices /home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/exercices__rosidl_typesupport_introspection_c.dir/depend
 

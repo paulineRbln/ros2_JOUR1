@@ -6,3 +6,5 @@ exercices.egg-info/dependency_links.txt
 exercices.egg-info/top_level.txt
 exercices/msg/__init__.py
 exercices/msg/_computer_info.py
+exercices/srv/__init__.py
+exercices/srv/_control_client.py

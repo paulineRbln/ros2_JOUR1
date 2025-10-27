@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/exercices/msg/__init__.py"
   "../rosidl_generator_py/exercices/msg/_computer_info.py"
   "../rosidl_generator_py/exercices/msg/_computer_info_s.c"
+  "../rosidl_generator_py/exercices/srv/__init__.py"
+  "../rosidl_generator_py/exercices/srv/_control_client.py"
+  "../rosidl_generator_py/exercices/srv/_control_client_s.c"
   "CMakeFiles/exercices__py"
 )
 

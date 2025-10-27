@@ -360,7 +360,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/exercices/srv" TYPE FILE FILES "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_adapter/exercices/srv/ControlClient.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/exercices/msg" TYPE FILE FILES "/home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices/msg/ComputerInfo.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/exercices/srv" TYPE FILE FILES "/home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices/srv/ControlClient.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/exercices/srv" TYPE FILE FILES "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_cmake/srv/ControlClient_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/exercices/srv" TYPE FILE FILES "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_cmake/srv/ControlClient_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -375,6 +391,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices/scripts/subscriber_ex4.py"
     "/home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices/scripts/subscriber_ex5.py"
     "/home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices/scripts/node_ex6.py"
+    "/home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices/scripts/service_ex7.py"
+    "/home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices/scripts/node_client_ex7.py"
     )
 endif()
 

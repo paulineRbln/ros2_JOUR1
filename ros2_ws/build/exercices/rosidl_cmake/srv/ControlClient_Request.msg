@@ -1,0 +1,4 @@
+string bon_ordi
+string ordi_serveur
+int32 bon_domain
+int32 domain_serveur

@@ -71,6 +71,11 @@ CMakeFiles/exercices__cpp: rosidl_generator_cpp/exercices/msg/detail/computer_in
 CMakeFiles/exercices__cpp: rosidl_generator_cpp/exercices/msg/detail/computer_info__struct.hpp
 CMakeFiles/exercices__cpp: rosidl_generator_cpp/exercices/msg/detail/computer_info__traits.hpp
 CMakeFiles/exercices__cpp: rosidl_generator_cpp/exercices/msg/detail/computer_info__type_support.hpp
+CMakeFiles/exercices__cpp: rosidl_generator_cpp/exercices/srv/control_client.hpp
+CMakeFiles/exercices__cpp: rosidl_generator_cpp/exercices/srv/detail/control_client__builder.hpp
+CMakeFiles/exercices__cpp: rosidl_generator_cpp/exercices/srv/detail/control_client__struct.hpp
+CMakeFiles/exercices__cpp: rosidl_generator_cpp/exercices/srv/detail/control_client__traits.hpp
+CMakeFiles/exercices__cpp: rosidl_generator_cpp/exercices/srv/detail/control_client__type_support.hpp
 CMakeFiles/exercices__cpp: rosidl_generator_cpp/exercices/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/exercices/msg/computer_info.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -89,6 +94,7 @@ rosidl_generator_cpp/exercices/msg/computer_info.hpp: /opt/ros/humble/share/rosi
 rosidl_generator_cpp/exercices/msg/computer_info.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/exercices/msg/computer_info.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/exercices/msg/computer_info.hpp: rosidl_adapter/exercices/msg/ComputerInfo.idl
+rosidl_generator_cpp/exercices/msg/computer_info.hpp: rosidl_adapter/exercices/srv/ControlClient.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_cpp__arguments.json
 
@@ -104,12 +110,32 @@ rosidl_generator_cpp/exercices/msg/detail/computer_info__traits.hpp: rosidl_gene
 rosidl_generator_cpp/exercices/msg/detail/computer_info__type_support.hpp: rosidl_generator_cpp/exercices/msg/computer_info.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/exercices/msg/detail/computer_info__type_support.hpp
 
+rosidl_generator_cpp/exercices/srv/control_client.hpp: rosidl_generator_cpp/exercices/msg/computer_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/exercices/srv/control_client.hpp
+
+rosidl_generator_cpp/exercices/srv/detail/control_client__builder.hpp: rosidl_generator_cpp/exercices/msg/computer_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/exercices/srv/detail/control_client__builder.hpp
+
+rosidl_generator_cpp/exercices/srv/detail/control_client__struct.hpp: rosidl_generator_cpp/exercices/msg/computer_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/exercices/srv/detail/control_client__struct.hpp
+
+rosidl_generator_cpp/exercices/srv/detail/control_client__traits.hpp: rosidl_generator_cpp/exercices/msg/computer_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/exercices/srv/detail/control_client__traits.hpp
+
+rosidl_generator_cpp/exercices/srv/detail/control_client__type_support.hpp: rosidl_generator_cpp/exercices/msg/computer_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/exercices/srv/detail/control_client__type_support.hpp
+
 exercices__cpp: CMakeFiles/exercices__cpp
 exercices__cpp: rosidl_generator_cpp/exercices/msg/computer_info.hpp
 exercices__cpp: rosidl_generator_cpp/exercices/msg/detail/computer_info__builder.hpp
 exercices__cpp: rosidl_generator_cpp/exercices/msg/detail/computer_info__struct.hpp
 exercices__cpp: rosidl_generator_cpp/exercices/msg/detail/computer_info__traits.hpp
 exercices__cpp: rosidl_generator_cpp/exercices/msg/detail/computer_info__type_support.hpp
+exercices__cpp: rosidl_generator_cpp/exercices/srv/control_client.hpp
+exercices__cpp: rosidl_generator_cpp/exercices/srv/detail/control_client__builder.hpp
+exercices__cpp: rosidl_generator_cpp/exercices/srv/detail/control_client__struct.hpp
+exercices__cpp: rosidl_generator_cpp/exercices/srv/detail/control_client__traits.hpp
+exercices__cpp: rosidl_generator_cpp/exercices/srv/detail/control_client__type_support.hpp
 exercices__cpp: CMakeFiles/exercices__cpp.dir/build.make
 .PHONY : exercices__cpp
 

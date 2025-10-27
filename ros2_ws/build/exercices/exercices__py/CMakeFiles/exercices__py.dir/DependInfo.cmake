@@ -17,6 +17,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_py/exercices/msg/__init__.py" "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_py/exercices/msg/_computer_info.py" "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_py/exercices/msg/_computer_info_s.c" "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_py/exercices/srv/__init__.py" "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_py/exercices/srv/_control_client.py" "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_py/exercices/srv/_control_client_s.c" "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

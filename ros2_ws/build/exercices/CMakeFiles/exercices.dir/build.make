@@ -67,6 +67,9 @@ include CMakeFiles/exercices.dir/compiler_depend.make
 include CMakeFiles/exercices.dir/progress.make
 
 CMakeFiles/exercices: /home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices/msg/ComputerInfo.msg
+CMakeFiles/exercices: /home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices/srv/ControlClient.srv
+CMakeFiles/exercices: rosidl_cmake/srv/ControlClient_Request.msg
+CMakeFiles/exercices: rosidl_cmake/srv/ControlClient_Response.msg
 
 exercices: CMakeFiles/exercices
 exercices: CMakeFiles/exercices.dir/build.make

@@ -247,8 +247,13 @@ CMakeFiles/exercices__rosidl_typesupport_introspection_c__pyext.dir/rosidl_gener
   rosidl_generator_c/exercices/msg/detail/computer_info__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  rosidl_generator_c/exercices/msg/detail/computer_info__functions.h
+  rosidl_generator_c/exercices/msg/detail/computer_info__functions.h \
+  rosidl_generator_c/exercices/srv/detail/control_client__type_support.h \
+  rosidl_generator_c/exercices/srv/detail/control_client__struct.h \
+  rosidl_generator_c/exercices/srv/detail/control_client__functions.h
 
+
+rosidl_generator_c/exercices/srv/detail/control_client__struct.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
@@ -564,6 +569,8 @@ rosidl_generator_c/exercices/msg/rosidl_generator_c__visibility_control.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
+rosidl_generator_c/exercices/srv/detail/control_client__type_support.h:
+
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
@@ -651,6 +658,8 @@ rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_introspection_c
 /usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+rosidl_generator_c/exercices/srv/detail/control_client__functions.h:
 
 /usr/include/linux/close_range.h:
 

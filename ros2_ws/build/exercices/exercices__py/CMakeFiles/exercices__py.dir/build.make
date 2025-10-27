@@ -70,8 +70,11 @@ exercices__py/CMakeFiles/exercices__py: rosidl_generator_py/exercices/_exercices
 exercices__py/CMakeFiles/exercices__py: rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_introspection_c.c
 exercices__py/CMakeFiles/exercices__py: rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_c.c
 exercices__py/CMakeFiles/exercices__py: rosidl_generator_py/exercices/msg/_computer_info.py
+exercices__py/CMakeFiles/exercices__py: rosidl_generator_py/exercices/srv/_control_client.py
 exercices__py/CMakeFiles/exercices__py: rosidl_generator_py/exercices/msg/__init__.py
+exercices__py/CMakeFiles/exercices__py: rosidl_generator_py/exercices/srv/__init__.py
 exercices__py/CMakeFiles/exercices__py: rosidl_generator_py/exercices/msg/_computer_info_s.c
+exercices__py/CMakeFiles/exercices__py: rosidl_generator_py/exercices/srv/_control_client_s.c
 
 rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,6 +90,7 @@ rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c: /
 rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/exercices/msg/ComputerInfo.idl
+rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/exercices/srv/ControlClient.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/exercices__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -99,11 +103,20 @@ rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_c.c: rosidl_gen
 rosidl_generator_py/exercices/msg/_computer_info.py: rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/exercices/msg/_computer_info.py
 
+rosidl_generator_py/exercices/srv/_control_client.py: rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/exercices/srv/_control_client.py
+
 rosidl_generator_py/exercices/msg/__init__.py: rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/exercices/msg/__init__.py
 
+rosidl_generator_py/exercices/srv/__init__.py: rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/exercices/srv/__init__.py
+
 rosidl_generator_py/exercices/msg/_computer_info_s.c: rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/exercices/msg/_computer_info_s.c
+
+rosidl_generator_py/exercices/srv/_control_client_s.c: rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/exercices/srv/_control_client_s.c
 
 exercices__py: exercices__py/CMakeFiles/exercices__py
 exercices__py: rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_c.c
@@ -112,6 +125,9 @@ exercices__py: rosidl_generator_py/exercices/_exercices_s.ep.rosidl_typesupport_
 exercices__py: rosidl_generator_py/exercices/msg/__init__.py
 exercices__py: rosidl_generator_py/exercices/msg/_computer_info.py
 exercices__py: rosidl_generator_py/exercices/msg/_computer_info_s.c
+exercices__py: rosidl_generator_py/exercices/srv/__init__.py
+exercices__py: rosidl_generator_py/exercices/srv/_control_client.py
+exercices__py: rosidl_generator_py/exercices/srv/_control_client_s.c
 exercices__py: exercices__py/CMakeFiles/exercices__py.dir/build.make
 .PHONY : exercices__py
 

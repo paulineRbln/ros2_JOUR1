@@ -13,6 +13,8 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ComputerInfo.msg"
+  "srv/ControlClient.srv"
+
 )
 
 install(PROGRAMS 
@@ -26,6 +28,8 @@ install(PROGRAMS
   scripts/subscriber_ex4.py
   scripts/subscriber_ex5.py
   scripts/node_ex6.py
+  scripts/service_ex7.py
+  scripts/node_client_ex7.py
   DESTINATION lib/${PROJECT_NAME}
   )
 

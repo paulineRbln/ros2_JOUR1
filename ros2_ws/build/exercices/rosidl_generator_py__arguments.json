@@ -3,7 +3,8 @@
   "output_dir": "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_generator_py/exercices",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_adapter/exercices:msg/ComputerInfo.idl"
+    "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_adapter/exercices:msg/ComputerInfo.idl",
+    "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_adapter/exercices:srv/ControlClient.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -19,6 +20,7 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_adapter/exercices/msg/ComputerInfo.idl"
+    "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_adapter/exercices/msg/ComputerInfo.idl",
+    "/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/rosidl_adapter/exercices/srv/ControlClient.idl"
   ]
 }

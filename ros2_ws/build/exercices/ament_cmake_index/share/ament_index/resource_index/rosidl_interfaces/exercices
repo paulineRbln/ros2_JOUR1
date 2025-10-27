@@ -1,2 +1,6 @@
 msg/ComputerInfo.idl
 msg/ComputerInfo.msg
+srv/ControlClient.idl
+srv/ControlClient.srv
+srv/ControlClient_Request.msg
+srv/ControlClient_Response.msg
