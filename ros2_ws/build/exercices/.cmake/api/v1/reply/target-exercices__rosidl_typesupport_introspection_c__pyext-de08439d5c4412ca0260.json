@@ -279,12 +279,12 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 13,
-			"id" : "exercices__py::@27244e45d2aabcf97464"
-		},
-		{
 			"backtrace" : 7,
 			"id" : "exercices__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "exercices__py::@27244e45d2aabcf97464"
 		},
 		{
 			"backtrace" : 7,
