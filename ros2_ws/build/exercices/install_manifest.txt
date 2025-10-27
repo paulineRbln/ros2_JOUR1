@@ -59,6 +59,7 @@
 /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/exercices/subscriber_ex1.py
 /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/exercices/subscriber_ex2.py
 /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/exercices/subscriber_ex3.py
+/home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/exercices/subscriber_ex4.py
 /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/ament_index/resource_index/package_run_dependencies/exercices
 /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/ament_index/resource_index/parent_prefix_path/exercices
 /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices/environment/ament_prefix_path.sh

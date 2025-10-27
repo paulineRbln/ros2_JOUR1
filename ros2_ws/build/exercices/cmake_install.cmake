@@ -372,6 +372,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices/scripts/subscriber_ex1.py"
     "/home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices/scripts/subscriber_ex2.py"
     "/home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices/scripts/subscriber_ex3.py"
+    "/home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices/scripts/subscriber_ex4.py"
     )
 endif()
 
