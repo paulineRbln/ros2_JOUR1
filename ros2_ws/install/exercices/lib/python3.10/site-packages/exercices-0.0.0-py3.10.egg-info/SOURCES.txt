@@ -11,7 +11,11 @@ setup.py
 ../../build/exercices/exercices.egg-info/zip-safe
 exercices/__init__.py
 exercices/publisher_ex1.py
+exercices/publisher_ex2.py
+exercices/publisher_ex3.py
 exercices/subscriber_ex1.py
+exercices/subscriber_ex2.py
+exercices/subscriber_ex3.py
 resource/exercices
 test/test_copyright.py
 test/test_flake8.py

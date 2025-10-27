@@ -24,8 +24,12 @@ setup(
     },
     entry_points={
         'console_scripts': [
-                'talker = exercices.publisher_ex1:main',
-                'listener = exercices.subscriber_ex1:main',
+                'publisher_ex1 = exercices.publisher_ex1:main',
+                'publisher_ex2 = exercices.publisher_ex2:main',
+                'publisher_ex3 = exercices.publisher_ex3:main',
+                'subscriber_ex1 = exercices.subscriber_ex1:main',
+                'subscriber_ex2 = exercices.subscriber_ex2:main',
+                'subscriber_ex3 = exercices.subscriber_ex3:main',
         ],
     },
 )

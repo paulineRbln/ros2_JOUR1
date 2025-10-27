@@ -7,10 +7,10 @@ from std_msgs.msg import String
 class MinimalSubscriber(Node):
 
     def __init__(self):
-        super().__init__('minimal_subscriber')
+        super().__init__('minimal_subscriber1')
         self.subscription = self.create_subscription(
             String,
-            'topic',
+            'topic1',
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning
