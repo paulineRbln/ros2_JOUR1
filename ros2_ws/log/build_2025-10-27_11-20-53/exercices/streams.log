@@ -1,0 +1,26 @@
+[0.668s] Invoking command in '/home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices': PYTHONPATH=/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/exercices build --build-base /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/build install --record /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/install.log --single-version-externally-managed install_data
+[0.965s] running egg_info
+[0.966s] writing ../../build/exercices/exercices.egg-info/PKG-INFO
+[0.966s] writing dependency_links to ../../build/exercices/exercices.egg-info/dependency_links.txt
+[0.966s] writing entry points to ../../build/exercices/exercices.egg-info/entry_points.txt
+[0.967s] writing requirements to ../../build/exercices/exercices.egg-info/requires.txt
+[0.967s] writing top-level names to ../../build/exercices/exercices.egg-info/top_level.txt
+[0.968s] reading manifest file '../../build/exercices/exercices.egg-info/SOURCES.txt'
+[0.968s] adding license file 'LICENSE'
+[0.970s] writing manifest file '../../build/exercices/exercices.egg-info/SOURCES.txt'
+[0.970s] running build
+[0.970s] running build_py
+[0.970s] copying exercices/publisher_ex1.py -> /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/build/lib/exercices
+[0.970s] running install
+[0.970s] running install_lib
+[0.971s] copying /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/build/lib/exercices/publisher_ex1.py -> /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/python3.10/site-packages/exercices
+[0.972s] byte-compiling /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/python3.10/site-packages/exercices/publisher_ex1.py to publisher_ex1.cpython-310.pyc
+[0.972s] running install_data
+[0.973s] running install_egg_info
+[0.974s] removing '/home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/python3.10/site-packages/exercices-0.0.0-py3.10.egg-info' (and everything under it)
+[0.975s] Copying ../../build/exercices/exercices.egg-info to /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/python3.10/site-packages/exercices-0.0.0-py3.10.egg-info
+[0.975s] running install_scripts
+[0.996s] Installing listener script to /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/exercices
+[0.996s] Installing talker script to /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/exercices
+[0.997s] writing list of installed files to '/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/install.log'
+[1.019s] Invoked command in '/home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices' returned '0': PYTHONPATH=/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/exercices build --build-base /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/build install --record /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/install.log --single-version-externally-managed install_data

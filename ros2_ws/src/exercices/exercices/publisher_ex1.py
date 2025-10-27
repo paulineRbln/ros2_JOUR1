@@ -11,16 +11,28 @@ class MinimalPublisher(Node):
     def __init__(self):
         super().__init__('minimal_publisher')
         self.publisher_ = self.create_publisher(String, 'topic', 10)
-        self.timer = self.create_timer(1.0, self.timer_callback)
+        """
+        #timer ROS2
+        timer_period = 1.0  # seconds
+        self.timer = self.create_timer(timer_period, self.timer_callback)
+        #compteur
+        self.i = 0
+        """
 
-    def timer_callback(self):
+        #sans timer
+        self.publish_once() 
+
+
+    def publish_once(self):
         msg = String()
         nom_ordi = socket.gethostname()
         domain_id = os.getenv('ROS_DOMAIN_ID', '0')
         msg.data = f'Nom ordi: {nom_ordi}, Domain ID: {domain_id}'
+        #, compteur : {self.i}
         
         self.publisher_.publish(msg)
         self.get_logger().info('Publishing: "%s"' % msg.data)
+        #self.i += 1
 
 
 def main(args=None):
@@ -28,7 +40,7 @@ def main(args=None):
 
     minimal_publisher = MinimalPublisher()
 
-    rclpy.spin(minimal_publisher)
+    rclpy.spin_once(minimal_publisher, timeout_sec=1.0)
 
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
