@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/exercices/exercices.egg-info
+writing ../../build/exercices/exercices.egg-info/PKG-INFO
+writing dependency_links to ../../build/exercices/exercices.egg-info/dependency_links.txt
+writing entry points to ../../build/exercices/exercices.egg-info/entry_points.txt
+writing requirements to ../../build/exercices/exercices.egg-info/requires.txt
+writing top-level names to ../../build/exercices/exercices.egg-info/top_level.txt
+writing manifest file '../../build/exercices/exercices.egg-info/SOURCES.txt'
+reading manifest file '../../build/exercices/exercices.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/exercices/exercices.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/build
+creating /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/build/lib
+creating /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/build/lib/exercices
+copying exercices/__init__.py -> /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/build/lib/exercices
+running install
+running install_lib
+creating /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/python3.10/site-packages/exercices
+copying /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/build/lib/exercices/__init__.py -> /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/python3.10/site-packages/exercices
+byte-compiling /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/python3.10/site-packages/exercices/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/ament_index
+creating /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/ament_index/resource_index
+creating /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/ament_index/resource_index/packages
+copying resource/exercices -> /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/ament_index/resource_index/packages
+copying package.xml -> /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices
+running install_egg_info
+Copying ../../build/exercices/exercices.egg-info to /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/python3.10/site-packages/exercices-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/install.log'

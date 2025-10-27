@@ -1,0 +1,34 @@
+[1.313s] Invoking command in '/home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices': PYTHONPATH=/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/exercices build --build-base /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/build install --record /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/install.log --single-version-externally-managed install_data
+[1.566s] running egg_info
+[1.566s] creating ../../build/exercices/exercices.egg-info
+[1.566s] writing ../../build/exercices/exercices.egg-info/PKG-INFO
+[1.566s] writing dependency_links to ../../build/exercices/exercices.egg-info/dependency_links.txt
+[1.567s] writing entry points to ../../build/exercices/exercices.egg-info/entry_points.txt
+[1.567s] writing requirements to ../../build/exercices/exercices.egg-info/requires.txt
+[1.567s] writing top-level names to ../../build/exercices/exercices.egg-info/top_level.txt
+[1.567s] writing manifest file '../../build/exercices/exercices.egg-info/SOURCES.txt'
+[1.569s] reading manifest file '../../build/exercices/exercices.egg-info/SOURCES.txt'
+[1.569s] adding license file 'LICENSE'
+[1.569s] writing manifest file '../../build/exercices/exercices.egg-info/SOURCES.txt'
+[1.570s] running build
+[1.570s] running build_py
+[1.570s] creating /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/build
+[1.570s] creating /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/build/lib
+[1.570s] creating /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/build/lib/exercices
+[1.570s] copying exercices/__init__.py -> /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/build/lib/exercices
+[1.570s] running install
+[1.571s] running install_lib
+[1.571s] creating /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/python3.10/site-packages/exercices
+[1.571s] copying /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/build/lib/exercices/__init__.py -> /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/python3.10/site-packages/exercices
+[1.571s] byte-compiling /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/python3.10/site-packages/exercices/__init__.py to __init__.cpython-310.pyc
+[1.572s] running install_data
+[1.572s] creating /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/ament_index
+[1.572s] creating /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/ament_index/resource_index
+[1.572s] creating /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/ament_index/resource_index/packages
+[1.572s] copying resource/exercices -> /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/ament_index/resource_index/packages
+[1.572s] copying package.xml -> /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/share/exercices
+[1.572s] running install_egg_info
+[1.574s] Copying ../../build/exercices/exercices.egg-info to /home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/python3.10/site-packages/exercices-0.0.0-py3.10.egg-info
+[1.575s] running install_scripts
+[1.595s] writing list of installed files to '/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/install.log'
+[1.617s] Invoked command in '/home/student/Documents/ros2_JOUR1/ros2_ws/src/exercices' returned '0': PYTHONPATH=/home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Documents/ros2_JOUR1/ros2_ws/install/exercices/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/exercices build --build-base /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/build install --record /home/student/Documents/ros2_JOUR1/ros2_ws/build/exercices/install.log --single-version-externally-managed install_data
